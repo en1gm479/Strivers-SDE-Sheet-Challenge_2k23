@@ -11,12 +11,12 @@ public:
                     if(i==0) chk=1;
                     else matrix[i][0]=0;
                     matrix[0][j]=0;
-                    cout<<i<<j<<" ";
+//                     cout<<i<<j<<" ";
                 }
             }
         }
         
-        cout<<chk;
+//         cout<<chk;
         for(int i=1;i<n;i++){
             if(matrix[i][0]) continue;
             for(int j=0;j<m;j++){
